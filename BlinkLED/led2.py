@@ -1,7 +1,7 @@
 from machine import Pin
 import utime
 
-led = Pin('LED', Pin.OUT)
+led = Pin(7, Pin.OUT)
 
 while (True):
     led.value(1)

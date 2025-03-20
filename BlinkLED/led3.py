@@ -1,7 +1,7 @@
 import machine
 import time
 
-led = machine.PWM(machine.Pin(16))  # GPIO 16に接続したLEDをPWMで制御
+led = machine.PWM(machine.Pin(15))  # GPIO 16に接続したLEDをPWMで制御
 led.freq(1000)  # PWM周波数を1kHzに設定
 
 while True:

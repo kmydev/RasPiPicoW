@@ -1,7 +1,7 @@
 import machine
 import time
 
-led = machine.Pin('LED', machine.Pin.OUT)
+led = machine.Pin(12, machine.Pin.OUT)
 
 while (True):
     led.on()
